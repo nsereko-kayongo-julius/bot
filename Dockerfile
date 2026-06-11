@@ -9,4 +9,4 @@ RUN npm ci --only=production
 COPY . .
 
 # Run the entry script directly
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
