@@ -8,5 +8,4 @@ RUN npm ci --only=production
 
 COPY . .
 
-# Run the entry script directly
 CMD ["node", "server.js"]

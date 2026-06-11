@@ -147,7 +147,7 @@ function handleLiveCandle(candle) {
 
   const closedCandle = candles[candles.length - 1];
 
-  console.log("Closed candle:", closedCandle);
+  console.log("Closed candle:..", closedCandle);
 
   candles.push(candle);
 
